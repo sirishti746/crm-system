@@ -1,6 +1,6 @@
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Navbar from "./components/NavBar";
-import Dashboard from "./pages/dashboard";
+import Dashboard from "./pages/Dashboard";
 import CreateTicket from "./pages/CreateTicket";
 import TicketDetail from "./pages/TicketDetails";
 import ImportCSV from "./pages/ImportCSV";
