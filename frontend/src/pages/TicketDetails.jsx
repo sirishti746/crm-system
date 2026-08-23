@@ -4,7 +4,8 @@ import { getTicket, updateTicket, deleteTicket, uploadAttachment, deleteAttachme
 import StatusBadge from "../components/StatusBadge";
 
 const STATUSES = ["Open", "In Progress", "Closed"];
-const API_ORIGIN = "http://127.0.0.1:8000";
+// const API_ORIGIN = "http://127.0.0.1:8000";
+const API_ORIGIN = import.meta.env.VITE_API_URL;
 
 function PencilIcon() {
   return (

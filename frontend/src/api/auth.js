@@ -1,5 +1,5 @@
 // const BASE_URL = "http://127.0.0.1:8000/api/auth";
-const BASE_URL = `${import.meta.env.VITE_API_URL}/api/tickets`;
+const BASE_URL = `${import.meta.env.VITE_API_URL}/api/auth`;
 
 export async function register(username, email, password) {
   const res = await fetch(`${BASE_URL}/register`, {
